@@ -1,15 +1,29 @@
 // Ejercicio 3
 
-let p=true
-let q=true
-
-//item 3 tabla a. Fila 1 NOT p
-let notp= !p;
+/*let notp= !p;
 console.log(notP);
-
-//item 3. tabla a Fila 1 Not p AND q
-
 let notpandq=notP&&q:
-console.log (notp∧q);
+console.log (notp∧q); || */
+       
+let p=true;
+let q=false;
 
- ||  
+//Ejercicio 3.a
+const resultado1 = !p;
+console.log(resultado1);
+ 
+const resultado2 = !p && q;
+ console.log(resultado2);
+
+ //Ejercicio 3.b
+ const resultado3 = !p;
+ console.log(resultado3);
+
+ const resultado4 = !q;
+console.log(resultado4);
+
+const resultado5 = !p && !q;
+ console.log(resultado5);
+
+
+
